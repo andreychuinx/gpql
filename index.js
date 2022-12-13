@@ -6,13 +6,7 @@ const joinMonster = require('join-monster')
 let app = express()
 
 const { Client } = require('pg')
-const client = new Client({
-  host: "194.163.34.217",
-  user: "training_admin",
-  password: "training_admin2022",
-  database: "training",
-  port: 5490
-})
+
 
 client.connect()
 
